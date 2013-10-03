@@ -1,4 +1,6 @@
-# A simple byte conversion utility
+# Byte: A simple byte conversion utility
+
+![Build Status](https://travis-ci.org/jschaedl/Byte.png)
 
 ## Usage example
 
@@ -30,4 +32,12 @@ $converter->getGBytes('1m');	// 0.0009765625
 $converter->getGBytes('1g');	// 1 
 
 ```
+
+## Author
+
+[Jan Schädlich](https://github.com/jschaedl)
+
+## License
+
+MIT Public License
 
