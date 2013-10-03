@@ -24,11 +24,11 @@ class ByteConverterToGByteTest extends \PHPUnit_Framework_TestCase
 	    $this->assertEquals(1, $this->converter->getGBytes('1048576k'));
 	}
 	
-	public function testByteConvertMByteToMByte() {
+	public function testByteConvertMByteToGByte() {
 	    $this->assertEquals(1, $this->converter->getGBytes('1024m'));
 	}
 	
-	public function testByteConvertGByteToMByte() {
+	public function testByteConvertGByteToGByte() {
 	    $this->assertEquals(1, $this->converter->getGBytes('1g'));
 	}
 }
