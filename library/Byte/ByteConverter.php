@@ -4,32 +4,32 @@ namespace Byte;
 
 class ByteConverter 
 {    
-    const Byte_Shorty = 'b';
-    const K_Byte_Shorty = 'k';
-    const M_Byte_Shorty = 'm';
-    const G_Byte_Shorty = 'g';
+    const Byte_String = 'b';
+    const K_Byte_String = 'k';
+    const M_Byte_String = 'm';
+    const G_Byte_String = 'g';
     
     protected static $units = array(
-        self::Byte_Shorty => 1,
-        self::K_Byte_Shorty => 1024,
-        self::M_Byte_Shorty => 1048576,
-        self::G_Byte_Shorty => 1073741824
+        self::Byte_String => 1,
+        self::K_Byte_String => 1024,
+        self::M_Byte_String => 1048576,
+        self::G_Byte_String => 1073741824
     );
     
 	public function getBytes($input) {
-	    return $this->compute($input, self::Byte_Shorty);
+	    return $this->compute($input, self::Byte_String);
 	}
 	
 	public function getKBytes($input) {
-	    return $this->compute($input, self::K_Byte_Shorty);
+	    return $this->compute($input, self::K_Byte_String);
 	}
 	
 	public function getMBytes($input) {
-	    return $this->compute($input, self::M_Byte_Shorty);
+	    return $this->compute($input, self::M_Byte_String);
 	}
 	
 	public function getGBytes($input) {
-	    return $this->compute($input, self::G_Byte_Shorty);
+	    return $this->compute($input, self::G_Byte_String);
 	}
 	
 	private function compute($input, $unitOut) {
