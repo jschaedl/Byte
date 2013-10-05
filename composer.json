@@ -2,29 +2,19 @@
     "name": "jschaedl/byte",
     "type": "library",
     "description": "byte conversion utility",
-    "keywords": ["byte"],
+    "keywords": ["byte", "conversion", "utility"],
     "homepage": "http://github.com/jschaedl/Byte",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jan SchÃ¤dlich",
+            "name": "Jan SchŠdlich",
             "email": "mail@janschaedlich.com",
-            "homepage": "https://github.com/jschaedl/"
+            "homepage": "https://github.com/jschaedl"
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "3.7.*", 
-        "phploc/phploc": "*",
-        "sebastian/phpcpd": "*",
-        "pdepend/pdepend": "dev-master",
-        "phpmd/phpmd": "dev-master",
-        "zerkalica/phpcs": "dev-master",
-        "covex-nn/phpcb": "1.0.*@dev",
-        "phpdocumentor/phpdocumentor": "*"
-    },
-    "require": {
-        "phpunit/php-code-coverage": ">=1.2.10,<1.3.0"
-    },
+        "phpunit/phpunit": "3.7.*"
+    },,
     "autoload": {
         "psr-0": { "Byte": "library" }
     }
