@@ -15,7 +15,12 @@
     "require-dev": {
         "phpunit/phpunit": "3.7.*", 
         "phploc/phploc": "*",
-        "sebastian/phpcpd": "*"
+        "sebastian/phpcpd": "*",
+        "pdepend/pdepend": "dev-master",
+        "phpmd/phpmd": "dev-master",
+        "zerkalica/phpcs": "dev-master",
+        "covex-nn/phpcb": "1.0.*@dev",
+        "phpdocumentor/phpdocumentor": "*"
     },
     "require": {
         "phpunit/php-code-coverage": ">=1.2.10,<1.3.0"
