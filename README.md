@@ -29,7 +29,7 @@ sudo composer.phar install
 
 ```
 <?php
-	$converter = new ByteConverter();
+	$converter = new \Byte\ByteConverter();
 
 	// convert to bytes
 	$converter->getBytes('1b'); 	// 1
