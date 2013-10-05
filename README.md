@@ -1,16 +1,28 @@
-# Byte: A simple byte conversion utility
+# Byte
+
+A simple byte conversion utility to make conversion of byte values easier! It is built for PHP 5.3+.
 
 [![Build Status](https://travis-ci.org/jschaedl/Byte.png)](https://travis-ci.org/jschaedl/Byte) 
 [![Latest Unstable Version](https://poser.pugx.org/jschaedl/Byte/v/stable.png)](https://packagist.org/packages/jschaedl/Byte) 
 [![Latest Unstable Version](https://poser.pugx.org/jschaedl/Byte/v/unstable.png)](https://packagist.org/packages/jschaedl/Byte) 
 [![Total Downloads](https://poser.pugx.org/jschaedl/byte/downloads.png)](https://packagist.org/packages/jschaedl/byte) 
 
-## Install via composer
+---
+
+## Installation
+
+Install the library using composer. Add the following to your ```composer.json```:
 
 ```
 "require": {
         "jschaedl/byte": "dev-master"
 }
+```
+
+And run the composer install command in terminal.
+
+```
+sudo composer.phar install
 ```
 
 ## Usage example
