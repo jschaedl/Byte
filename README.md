@@ -6,6 +6,7 @@ A simple byte conversion utility to make conversion of byte values easier! It is
 [![Latest Unstable Version](https://poser.pugx.org/jschaedl/Byte/v/stable.png)](https://packagist.org/packages/jschaedl/Byte) 
 [![Latest Unstable Version](https://poser.pugx.org/jschaedl/Byte/v/unstable.png)](https://packagist.org/packages/jschaedl/Byte) 
 [![Total Downloads](https://poser.pugx.org/jschaedl/byte/downloads.png)](https://packagist.org/packages/jschaedl/byte) 
+[![Dependencies Status](https://d2xishtp1ojlk0.cloudfront.net/d/13270245)](http://depending.in/jschaedl/Byte)
 
 ---
 
