@@ -3,7 +3,6 @@
 A simple byte conversion utility to make conversion of byte values easier! It is built for PHP 5.3+.
 
 [![Build Status](https://travis-ci.org/jschaedl/Byte.png)](https://travis-ci.org/jschaedl/Byte) 
-[![Code Climate](https://codeclimate.com/github/jschaedl/Byte.png)](https://codeclimate.com/github/jschaedl/Byte)
 [![Latest Unstable Version](https://poser.pugx.org/jschaedl/Byte/v/stable.png)](https://packagist.org/packages/jschaedl/Byte) 
 [![Latest Unstable Version](https://poser.pugx.org/jschaedl/Byte/v/unstable.png)](https://packagist.org/packages/jschaedl/Byte) 
 [![Total Downloads](https://poser.pugx.org/jschaedl/byte/downloads.png)](https://packagist.org/packages/jschaedl/byte) 
